@@ -1,8 +1,4 @@
-local whitelistecheck = game:HttpGet("https://pastebin.com/raw/3J5NTfkX")
-if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
-wait(0.1
+if game.Players.LocalPlayer.UserId == 6284583030 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/gabbytheduper/priv/main/asd", true))()
 end
-else
-game:service('Players').LocalPlayer:Kick('Not Whitelisted')
-end
+
